@@ -6,7 +6,7 @@ import ch.matthieu.greetings.domain.dto.ReadGreeting;
 import java.util.List;
 
 public interface GreetingService {
-	ReadGreeting createGreeting(CreateGreeting name);
+	ReadGreeting createGreeting(CreateGreeting createGreeting);
 
 	List<ReadGreeting> getGreetings(Integer limit);
 }
